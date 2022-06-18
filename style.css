@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    width: 100%;
+    align-items: center;
+    height: 20vh;
+    padding-left: 30px;
+    font-family: sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.destacados{
+    width: 100%;
+    height: 40vh;
+    background-color: darkcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexGrid{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.marcas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: aquamarine;
+    margin-top: 50px;
+    width: 60%;
+    gap:10px;
+    padding: 30px 60px 30px 60px;
+    grid-template-areas:
+    "marca1 marca2 marca3"
+    "marca4 marca5 marca6";
+}
+
+.marca1{grid-area: marca1;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.marca2{grid-area: marca2;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.marca3{grid-area: marca3;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.marca4{grid-area: marca4;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.marca5{grid-area: marca5;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.marca6{grid-area: marca6;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
